@@ -1,0 +1,110 @@
+Mini Digital Wallet
+Assigné
+fr
+IZ
+Ibrahim Zeroualcréé : 18/02/26
+l'application permettra de gérer les utilisateurs , les portefeuilles et les soldes.
+Référentiels
+
+    Compétences transversales
+    [2023] Développeur web et web mobile
+
+Contexte du projet
+
+Une startup FinTech souhaite développer un prototype très simple de portefeuille numérique (Digital Wallet) afin de comprendre le fonctionnement d’un serveur backend avant d’utiliser un framework comme Express.
+Contenu fonctionnel attendu
+
+Gestion des utilisateurs (CRUD)
+
+Un utilisateur contient :
+
+    id
+    name 
+
+Gestion des portefeuilles (CRUD)
+
+Une portefeuille contient :
+
+    id
+    user_id
+    name
+    sold 
+
+Chaque portefeuille doit être attribué à un utilisateur, avec un solde initial de 0 DH.
+
+Opérations financières
+
+Fonctionnalités :
+
+    Déposer un montant sur un portefeuille
+    Retirer un montant
+    Garder le calcul du solde
+
+Bonus
+
+Faire l’historique de chaque opération et sauvegarder les données dans un fichier .json.
+
+Règles métier obligatoires
+
+    Le montant doit être strictement positif
+    Le retrait est refusé si le solde est insuffisant
+    L’utilisateur doit exister
+    Les réponses doivent être en JSON
+
+Backlog technique
+
+    Node.js Basics
+    Initialisation d’un projet avec npm
+    Utilisation de package.json
+    Scripts npm
+    require / module.exports
+    Serveur HTTP natif
+    Création d’un serveur avec le module http
+    Utilisation correcte des status codes
+    Gestion du body (obligatoire)
+
+Séparation en fichiers
+
+    server.js
+    routes
+    controllers
+    data (stockage en mémoire)
+
+Modalités pédagogiques
+
+    Travail individuel.
+    Durée : 3 jours.
+    Date de lancement du brief : 18/02/2026 à 12h30.
+    Date limite de soumission des livrables : 20/02/2026 avant 23h59.
+    Dernière push sur GitHub le dimanche avant 23h59.
+
+Modalités d'évaluation
+5 minutes : Démontration d’application.
+5 minutes : Explication partie code .
+10 minutes : évaluation des savoirs / mise en situation.
+Livrables
+Lien de la planification Trello.
+Lien GitHub : Avec un historique de commits clair montrant la création progressive des fichiers JS.
+Critères de performance
+Maîtrise de node.js et Routing.
+Situation professionnelle
+Développement d’APIs REST sécurisés avec Node.js & Express
+Besoin visé ou problème rencontré
+Mise en place d’une application web de gestion de données, incluant des fonctionnalités de création, consultation, modification et suppression avec authentification et gestion des accès. Le problème rencontré est l’absence d’un système fiable et sécurisé pour : -Gérer les données côté serveur. -Assurer la communication entre le front-end et le back-end via des APIs REST. -Garantir la sécurité des données (authentification, autorisation). -Déployer une solution stable et maintenable.
+11 compétences visées
+Compétences visées
+
+    C1. Planifier le travail à effectuer individuellement
+        niveau 1, imiter
+        niveau 2, adapter
+        niveau 3, transposer
+    C3. Définir le périmètre d’un problème rencontré en adoptant une démarche inductive
+        niveau 1, imiter
+        niveau 2, adapter
+        niveau 3, transposer
+    C4. Rechercher de façon méthodique une ou des solutions au problème rencontré
+        niveau 1, imiter
+        niveau 2, adapter
+        niveau 3, transposer
+    Afficher la totalité des compétences
+
